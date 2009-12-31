@@ -7,9 +7,11 @@ begin
     gem.name = "mongorm"
     gem.summary = %Q{TODO: one-line summary of your gem}
     gem.description = %Q{TODO: longer description of your gem}
-    gem.email = "aubrey@patch.com"
+    gem.email = "aubreyholland@gmail.com"
     gem.homepage = "http://github.com/aub/mongorm"
     gem.authors = ["Aubrey Holland"]
+    gem.add_dependency 'activesupport', '3.0.pre'
+    gem.add_dependency 'mongo', '0.18.2'
     gem.add_development_dependency "rspec"
     gem.add_development_dependency "yard"
     gem.add_development_dependency "cucumber"
